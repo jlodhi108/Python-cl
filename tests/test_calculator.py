@@ -1,17 +1,10 @@
-"""
-tests/test_calculator.py
-Pytest test suite for app.calculator module.
-Each test verifies a specific behaviour so the CI pipeline
-can catch regressions automatically on every push / PR.
-"""
 
 import pytest
 from app.calculator import add, subtract, multiply, divide
 
 
-# ---------------------------------------------------------------------------
 # add()
-# ---------------------------------------------------------------------------
+
 
 class TestAdd:
     def test_add_two_positive_numbers(self):
@@ -30,9 +23,8 @@ class TestAdd:
         assert add(1.5, 2.5) == pytest.approx(4.0)
 
 
-# ---------------------------------------------------------------------------
 # subtract()
-# ---------------------------------------------------------------------------
+
 
 class TestSubtract:
     def test_subtract_basic(self):
@@ -48,9 +40,8 @@ class TestSubtract:
         assert subtract(9, 9) == 0
 
 
-# ---------------------------------------------------------------------------
+
 # multiply()
-# ---------------------------------------------------------------------------
 
 class TestMultiply:
     def test_multiply_positive_numbers(self):
@@ -69,9 +60,7 @@ class TestMultiply:
         assert multiply(2.5, 4) == pytest.approx(10.0)
 
 
-# ---------------------------------------------------------------------------
 # divide()
-# ---------------------------------------------------------------------------
 
 class TestDivide:
     def test_divide_basic(self):

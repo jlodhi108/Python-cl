@@ -1,8 +1,7 @@
-# DevOps with GitHub Actions — Python CI Demo
+# DevOps with GitHub Actions — Python CI 
 
-[![CI – Python Tests](https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/actions/workflows/ci.yml/badge.svg)](https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/actions/workflows/ci.yml)
 
-A minimal Python project that demonstrates a **real-world Continuous Integration (CI) pipeline** using **GitHub Actions**.
+
 
 ---
 
@@ -81,15 +80,6 @@ pytest tests/ -v
 
 ---
 
-## 📌 Submission Checklist
 
-- [x] `.github/workflows/ci.yml` — CI pipeline
-- [x] `requirements.txt` — dependencies
-- [x] `app/calculator.py` — source code
-- [x] `tests/test_calculator.py` — automated tests
-- [ ] Push to GitHub and confirm the Actions workflow turns **green**
-- [ ] Take a screenshot of the successful workflow run
 
----
-
-> **Replace `<YOUR_USERNAME>/<YOUR_REPO>`** with your actual GitHub username and repository name before pushing.
+jlodhi108/
